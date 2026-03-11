@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family:'Inter',sans-serif;
+-webkit-font-smoothing:antialiased;
+background-color:#f7f9fc;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+.menu-container{
+background-color:white;
+width:300px;
+height:fit-content;
+padding:20px;
+border-radius:15px;
+display:flex;
+flex-direction:column;
+gap:15px;
+box-shadow:04px6pxrgba(0,0,0,0.05);
+}
+.menu-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+color:#333;
+font-size:18px;
+}
+
+.arrows{
+cursor:pointer;
+color:#666;
+}
+
+.buttons{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.button{
+display:flex;
+align-items:center;
+gap:15px;
+padding:10px15px;
+cursor:pointer;
+border-radius:10px;
+transition:background0.2s;
+color:#333;
+}
+
+.button:hover{
+background-color:#f0f0f5;
+}
+
+.button.active{
+color:rgb(174, 107, 236);
+}
+
+.button.icon{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.button.text{
+font-size:16px;
+font-weight:500;
+}
+
+.main-container{
+
+padding:5%;
+width:1000px;
+height:1000px;
+background-color:white;
+
+
+}
+
+.button:hover{
+background-color:rgb(158, 95, 218);
+}
+
+.global-container{
+display:flex;
+gap:100px;
+}
+
+.nav-buttons{
+    display: flex;
+    gap:25px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:20px;
+    cursor:pointer;
+    border-radius:10px;
+    transition:background0.2s;
+    color:#333;
+
+}
+
+.header-left{
+    display:flex ;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.header-right{  
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    
+}
+
+.nav-active{
+    color: rgb(193, 28, 234);
+    border-bottom: 4px solid  rgb(171, 0, 234);
+    
+}
+
+.nav-button{
+    padding-bottom: 4px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: purple;
+}
+
+
+
+
